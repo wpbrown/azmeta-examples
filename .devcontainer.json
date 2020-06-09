@@ -1,0 +1,13 @@
+{
+    "extensions": [
+      "ms-python.python"
+    ],
+  
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash",
+      "terminal.integrated.shellArgs.linux": ["-l"]
+    },
+    
+    "image": "docker.pkg.github.com/wpbrown/azmeta-codespace/azmeta:latest",
+  }
+  
