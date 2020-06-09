@@ -2,12 +2,7 @@
     "extensions": [
       "ms-python.python"
     ],
-  
-    "settings": {
-      "terminal.integrated.shell.linux": "/bin/bash",
-      "terminal.integrated.shellArgs.linux": ["-l"]
-    },
-    
     "image": "rebeagle/azmeta:latest",
+    "postCreateCommand": [ "/opt/azmeta/libexec/init-codespace.sh" ]
   }
   
