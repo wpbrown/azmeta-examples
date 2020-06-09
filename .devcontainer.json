@@ -1,8 +1,9 @@
 {
-    "extensions": [
-      "ms-python.python"
-    ],
-    "image": "rebeagle/azmeta:latest",
-    "postCreateCommand": [ "/opt/azmeta/libexec/init-codespace.sh" ]
-  }
-  
+  "extensions": [
+    "ms-python.python"
+  ],
+  "image": "rebeagle/azmeta:latest",
+  "postCreateCommand": [
+    "/opt/azmeta/libexec/init-codespace.sh"
+  ]
+}
