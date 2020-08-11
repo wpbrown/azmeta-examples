@@ -2,7 +2,7 @@
   "extensions": [
     "ms-python.python"
   ],
-  "image": "rebeagle/azmeta:latest",
+  "image": "rebeagle/azmeta:testing",
   "postCreateCommand": [
     "/opt/azmeta/libexec/init-codespace.sh"
   ]
